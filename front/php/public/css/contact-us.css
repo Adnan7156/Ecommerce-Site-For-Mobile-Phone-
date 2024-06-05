@@ -1,0 +1,161 @@
+body{
+    background-color:silver;
+}
+
+
+
+.maincontainer  {
+margin-left: 20px;
+margin-top: 5px ;
+
+}
+
+#searchbox{
+  width: 700px;
+}
+#footermargin{
+  margin-left: 130px;
+}
+
+.container h5 {
+    color: white;
+    font-size: 40px;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.nav-link-custom:active,
+.nav-link-custom:focus,
+.nav-link-custom:hover {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: #ffffff26;
+    color: #fff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link-custom .mx-2 {
+    margin: 2.5rem !important;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: #4E52D0;
+    color: #fff;
+    margin-left: -62px;
+    margin-right: 10px;
+}
+
+.my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+}
+
+/* Card section */
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.card img {
+    height: 180px;
+    width: 190px;
+    margin: 40px;
+}
+
+.card-body .card-title {
+    font-size: 14px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-link {
+    color: #007bff;
+    background: rgb(253, 253, 253);
+}
+
+/* FOOTER */
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2.5rem 0;
+    background-color: #1e232c;
+    position:sticky;
+    
+  }
+  
+  .footer-col {
+    flex-basis: calc(33.333% - 2rem);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-col h6 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-col ul li a {
+    color: #dce6ed;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #007bff;
+  }
+  
+  .contact-us {
+    flex-basis: calc(33.333% - 2rem);
+    margin-right: 2rem;
+    text-align: center;
+  }
+  
+ 
+
+.contact-us button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #3e8e41;
+}

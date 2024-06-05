@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/style.css">
+   <title>Checkout</title>
+
+</head>
+<body>
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <p> Welcome To MY-PHONE</p>
+            </div>
+            <div class="col-sm-6 offset-sm-3">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    My Account
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Track Order
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="checkout.html">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Checkout
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-heart"></i>
+                    Wishlist
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">
+                    <i class="fa-solid fa-lock"></i>
+                    Login
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">
+                    <i class="fa-solid fa-pen"></i>
+                    Register
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="middle-part">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="logo">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo1.png" alt="Logo Icon" class="img-fluid"style="width: 3.25rem; height: 3.25rem;">
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-8 offset-sm-2">
+              <ul class="nav ms-5">
+                <li class="nav-item">
+                  <a class="nav-link about-us" href="about.html"> About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link about-us" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link about-us" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link about-us me-4" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Search for Products" aria-label="Search for Products" aria-describedby="basic-addon">
+                      <span class="input-group-text" id="basic-addon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                    </div>
+    
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <button type="button" class="btn btn-danger">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span class="price">Cart / <span class="price_code">&#2547;</span>0.00</span>
+                    </button>
+                  </a>
+                </li>
+    
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Feture Phone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product-2.html">Smart-Phone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    </header>
+
+<!-----------------------------------------------------------Main Section---------------------------------------------------------------------------------------->
+<div class="container">
+  <div class="row justify-content-center"> 
+    <div class="col-md-6 border"> 
+      <div class="login">
+        <h4>Checkout</h4>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button> <!-- Using btn-block to make button full-width -->
+          <div class="text-center mt-2"> <!-- Centering and adding margin top -->
+            <span class="psw">
+              <a href="signup.html">Create New Account?</a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div>&nbsp;</div>
+
+
+
+<!-----------------------------------------------------------Footer Section---------------------------------------------------------------------------------------->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="footer-col">
+          <h6>About Shop</h6>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="#">Refund & Returns</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-col">
+          <h6>Get help</h6>
+          <ul>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="payment-method.html">Payment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-col contact-us">
+          <h6>Contact Us</h6>
+          <button onclick="location.href='contact-us.html';">Contact Us</button>
+          <p><Address>Uttara secctor-4,road-4 Dhata-1230</Address></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
